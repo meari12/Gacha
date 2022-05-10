@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF1A4DB2828F8C60042B40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A4DA2828F8C60042B40B /* AppDelegate.swift */; };
+		CCF1A4DD2828F8C60042B40B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A4DC2828F8C60042B40B /* SceneDelegate.swift */; };
+		CCF1A4E22828F8C60042B40B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4E02828F8C60042B40B /* Main.storyboard */; };
+		CCF1A4E42828F8CA0042B40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4E32828F8CA0042B40B /* Assets.xcassets */; };
+		CCF1A4E72828F8CA0042B40B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4E52828F8CA0042B40B /* LaunchScreen.storyboard */; };
+		CCF1A5002828F9190042B40B /* bg_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4F12828F9190042B40B /* bg_blue@2x.png */; };
+		CCF1A5012828F9190042B40B /* bg_gold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4F22828F9190042B40B /* bg_gold@2x.png */; };
+		CCF1A5022828F9190042B40B /* gacha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4F32828F9190042B40B /* gacha@2x.png */; };
+		CCF1A5032828F9190042B40B /* bg_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4F42828F9190042B40B /* bg_red@2x.png */; };
+		CCF1A5042828F9190042B40B /* monster005.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4F62828F9190042B40B /* monster005.png */; };
+		CCF1A5052828F9190042B40B /* monster010.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4F72828F9190042B40B /* monster010.png */; };
+		CCF1A5062828F9190042B40B /* monster004.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4F82828F9190042B40B /* monster004.png */; };
+		CCF1A5072828F9190042B40B /* monster006.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4F92828F9190042B40B /* monster006.png */; };
+		CCF1A5082828F9190042B40B /* monster007.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4FA2828F9190042B40B /* monster007.png */; };
+		CCF1A5092828F9190042B40B /* monster003.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4FB2828F9190042B40B /* monster003.png */; };
+		CCF1A50A2828F9190042B40B /* monster002.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4FC2828F9190042B40B /* monster002.png */; };
+		CCF1A50B2828F9190042B40B /* monster001.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4FD2828F9190042B40B /* monster001.png */; };
+		CCF1A50C2828F9190042B40B /* monster009.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4FE2828F9190042B40B /* monster009.png */; };
+		CCF1A50D2828F9190042B40B /* monster008.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF1A4FF2828F9190042B40B /* monster008.png */; };
+		CCF1A5112828FD900042B40B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A5102828FD900042B40B /* ResultViewController.swift */; };
+		CCF1A51328297C4B0042B40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A51228297C4B0042B40B /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCF1A4D72828F8C60042B40B /* Gacha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gacha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF1A4DA2828F8C60042B40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF1A4DC2828F8C60042B40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCF1A4E12828F8C60042B40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF1A4E32828F8CA0042B40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF1A4E62828F8CA0042B40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF1A4E82828F8CA0042B40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF1A4F12828F9190042B40B /* bg_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_blue@2x.png"; sourceTree = "<group>"; };
+		CCF1A4F22828F9190042B40B /* bg_gold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_gold@2x.png"; sourceTree = "<group>"; };
+		CCF1A4F32828F9190042B40B /* gacha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gacha@2x.png"; sourceTree = "<group>"; };
+		CCF1A4F42828F9190042B40B /* bg_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_red@2x.png"; sourceTree = "<group>"; };
+		CCF1A4F62828F9190042B40B /* monster005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster005.png; sourceTree = "<group>"; };
+		CCF1A4F72828F9190042B40B /* monster010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster010.png; sourceTree = "<group>"; };
+		CCF1A4F82828F9190042B40B /* monster004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster004.png; sourceTree = "<group>"; };
+		CCF1A4F92828F9190042B40B /* monster006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster006.png; sourceTree = "<group>"; };
+		CCF1A4FA2828F9190042B40B /* monster007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster007.png; sourceTree = "<group>"; };
+		CCF1A4FB2828F9190042B40B /* monster003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster003.png; sourceTree = "<group>"; };
+		CCF1A4FC2828F9190042B40B /* monster002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster002.png; sourceTree = "<group>"; };
+		CCF1A4FD2828F9190042B40B /* monster001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster001.png; sourceTree = "<group>"; };
+		CCF1A4FE2828F9190042B40B /* monster009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster009.png; sourceTree = "<group>"; };
+		CCF1A4FF2828F9190042B40B /* monster008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster008.png; sourceTree = "<group>"; };
+		CCF1A5102828FD900042B40B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "Gacha素材/GachaResources/ResultViewController.swift"; sourceTree = "<group>"; };
+		CCF1A51228297C4B0042B40B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF1A4D42828F8C60042B40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF1A4CE2828F8C60042B40B = {
+			isa = PBXGroup;
+			children = (
+				CCF1A4D92828F8C60042B40B /* Gacha */,
+				CCF1A4D82828F8C60042B40B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF1A4D82828F8C60042B40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1A4D72828F8C60042B40B /* Gacha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF1A4D92828F8C60042B40B /* Gacha */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1A4EE2828F9190042B40B /* Gacha素材 */,
+				CCF1A4DA2828F8C60042B40B /* AppDelegate.swift */,
+				CCF1A4DC2828F8C60042B40B /* SceneDelegate.swift */,
+				CCF1A5102828FD900042B40B /* ResultViewController.swift */,
+				CCF1A4E02828F8C60042B40B /* Main.storyboard */,
+				CCF1A51228297C4B0042B40B /* ViewController.swift */,
+				CCF1A4E32828F8CA0042B40B /* Assets.xcassets */,
+				CCF1A4E52828F8CA0042B40B /* LaunchScreen.storyboard */,
+				CCF1A4E82828F8CA0042B40B /* Info.plist */,
+			);
+			path = Gacha;
+			sourceTree = "<group>";
+		};
+		CCF1A4EE2828F9190042B40B /* Gacha素材 */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1A4EF2828F9190042B40B /* GachaResources */,
+			);
+			path = "Gacha素材";
+			sourceTree = "<group>";
+		};
+		CCF1A4EF2828F9190042B40B /* GachaResources */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1A4F02828F9190042B40B /* background */,
+				CCF1A4F52828F9190042B40B /* monster */,
+			);
+			path = GachaResources;
+			sourceTree = "<group>";
+		};
+		CCF1A4F02828F9190042B40B /* background */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1A4F12828F9190042B40B /* bg_blue@2x.png */,
+				CCF1A4F22828F9190042B40B /* bg_gold@2x.png */,
+				CCF1A4F32828F9190042B40B /* gacha@2x.png */,
+				CCF1A4F42828F9190042B40B /* bg_red@2x.png */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+		CCF1A4F52828F9190042B40B /* monster */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1A4F62828F9190042B40B /* monster005.png */,
+				CCF1A4F72828F9190042B40B /* monster010.png */,
+				CCF1A4F82828F9190042B40B /* monster004.png */,
+				CCF1A4F92828F9190042B40B /* monster006.png */,
+				CCF1A4FA2828F9190042B40B /* monster007.png */,
+				CCF1A4FB2828F9190042B40B /* monster003.png */,
+				CCF1A4FC2828F9190042B40B /* monster002.png */,
+				CCF1A4FD2828F9190042B40B /* monster001.png */,
+				CCF1A4FE2828F9190042B40B /* monster009.png */,
+				CCF1A4FF2828F9190042B40B /* monster008.png */,
+			);
+			path = monster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF1A4D62828F8C60042B40B /* Gacha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF1A4EB2828F8CA0042B40B /* Build configuration list for PBXNativeTarget "Gacha" */;
+			buildPhases = (
+				CCF1A4D32828F8C60042B40B /* Sources */,
+				CCF1A4D42828F8C60042B40B /* Frameworks */,
+				CCF1A4D52828F8C60042B40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gacha;
+			productName = Gacha;
+			productReference = CCF1A4D72828F8C60042B40B /* Gacha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF1A4CF2828F8C60042B40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CCF1A4D62828F8C60042B40B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CCF1A4D22828F8C60042B40B /* Build configuration list for PBXProject "Gacha" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF1A4CE2828F8C60042B40B;
+			productRefGroup = CCF1A4D82828F8C60042B40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF1A4D62828F8C60042B40B /* Gacha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF1A4D52828F8C60042B40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF1A5032828F9190042B40B /* bg_red@2x.png in Resources */,
+				CCF1A4E72828F8CA0042B40B /* LaunchScreen.storyboard in Resources */,
+				CCF1A50C2828F9190042B40B /* monster009.png in Resources */,
+				CCF1A5012828F9190042B40B /* bg_gold@2x.png in Resources */,
+				CCF1A5092828F9190042B40B /* monster003.png in Resources */,
+				CCF1A50B2828F9190042B40B /* monster001.png in Resources */,
+				CCF1A50D2828F9190042B40B /* monster008.png in Resources */,
+				CCF1A4E42828F8CA0042B40B /* Assets.xcassets in Resources */,
+				CCF1A5082828F9190042B40B /* monster007.png in Resources */,
+				CCF1A5022828F9190042B40B /* gacha@2x.png in Resources */,
+				CCF1A50A2828F9190042B40B /* monster002.png in Resources */,
+				CCF1A4E22828F8C60042B40B /* Main.storyboard in Resources */,
+				CCF1A5052828F9190042B40B /* monster010.png in Resources */,
+				CCF1A5072828F9190042B40B /* monster006.png in Resources */,
+				CCF1A5042828F9190042B40B /* monster005.png in Resources */,
+				CCF1A5002828F9190042B40B /* bg_blue@2x.png in Resources */,
+				CCF1A5062828F9190042B40B /* monster004.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF1A4D32828F8C60042B40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF1A4DB2828F8C60042B40B /* AppDelegate.swift in Sources */,
+				CCF1A4DD2828F8C60042B40B /* SceneDelegate.swift in Sources */,
+				CCF1A51328297C4B0042B40B /* ViewController.swift in Sources */,
+				CCF1A5112828FD900042B40B /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCF1A4E02828F8C60042B40B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF1A4E12828F8C60042B40B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF1A4E52828F8CA0042B40B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF1A4E62828F8CA0042B40B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF1A4E92828F8CA0042B40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF1A4EA2828F8CA0042B40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF1A4EC2828F8CA0042B40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gacha/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gacha;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "meari-08-gacha.Gacha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF1A4ED2828F8CA0042B40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gacha/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gacha;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "meari-08-gacha.Gacha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF1A4D22828F8C60042B40B /* Build configuration list for PBXProject "Gacha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF1A4E92828F8CA0042B40B /* Debug */,
+				CCF1A4EA2828F8CA0042B40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF1A4EB2828F8CA0042B40B /* Build configuration list for PBXNativeTarget "Gacha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF1A4EC2828F8CA0042B40B /* Debug */,
+				CCF1A4ED2828F8CA0042B40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF1A4CF2828F8C60042B40B /* Project object */;
+}
