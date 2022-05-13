@@ -19,6 +19,7 @@ class ResultViewController: UIViewController {
     
     //モンスター画像を保存しておく配列
     var monsterArray: [UIImage]!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
